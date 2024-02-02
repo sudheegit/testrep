@@ -1,0 +1,80 @@
+Hello, World!
+python
+Copy code
+print("Hello, World!")
+2. Variables and Data Types
+python
+Copy code
+# Variables
+x = 5
+y = "Hello"
+
+# Data Types
+a = 3.14      # float
+b = True      # boolean
+c = "Python"  # string
+
+print(x)
+print(y)
+print(a)
+print(b)
+print(c)
+3. Basic Arithmetic
+python
+Copy code
+# Arithmetic operations
+num1 = 10
+num2 = 5
+
+sum_result = num1 + num2
+difference_result = num1 - num2
+product_result = num1 * num2
+quotient_result = num1 / num2
+
+print("Sum:", sum_result)
+print("Difference:", difference_result)
+print("Product:", product_result)
+print("Quotient:", quotient_result)
+4. Conditional Statements
+python
+Copy code
+# Conditional statements
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+5. Loops
+python
+Copy code
+# While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# For loop
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+6. Functions
+python
+Copy code
+# Function definition
+def greet(name):
+    print("Hello, " + name + "!")
+
+# Function call
+greet("Alice")
+7. Lists and Dictionaries
+python
+Copy code
+# Lists
+numbers = [1, 2, 3, 4, 5]
+print("List:", numbers)
+
+# Dictionaries
+person = {"name": "John", "age": 25, "city": "New York"}
+print("Dictionary:", person)
+These examples cover some fundamental concepts in Python. Feel free to experiment and modify them as you learn more about the language!
